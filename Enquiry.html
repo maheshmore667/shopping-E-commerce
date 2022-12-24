@@ -1,0 +1,54 @@
+
+<html>
+<head></head>
+<body>
+<h1 >Equire here...</h1>
+
+<style>
+
+@import url('http://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+html,body{
+    margin-top:100px;
+    text-align:center;
+    color: #3498db;
+    font-family: 'Poppins', sans-serif;
+	margin:50px 10px 10px 20px;
+	padding:10px 15px;
+	font-size:18px;
+	left:40%;
+}
+input[type=submit]
+{ 
+  background-color:#3498db;
+  border:none;
+  color:white;
+  padding:16px 32px;
+  margin: 4px 2px;
+  cursor:pointer;
+  border-radius:4px;
+  font-size:18px;
+}
+input[type=text],select,option,textarea
+{
+border:2px solid;
+text-align:left;
+font-size:16px;
+}
+</style>
+<form action="enquiry.php" method="POST">
+<b>Full Name: <input type="text" name="name" required /><br><br>
+Email ID: <input type="text" name="email" required /><br><br>
+Category: <select id="category" name="category" required ><br><br>
+<option value="Top Wear">Top Wear</option>
+<option value="Watches">Watches</option>
+<option value="Shoes">Traditional Wear</option>
+<option value="Bottom Wear">Bottom Wear</option>
+
+</select><br><br>
+Description: <textarea name="description" required ></textarea><br><br>
+<input type="submit"/>
+
+</b>
+
+</body
+</html>
